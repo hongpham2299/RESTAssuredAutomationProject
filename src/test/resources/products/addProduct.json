@@ -1,0 +1,18 @@
+{
+  "title":"Leather Watch",
+  "description":"An Awesome Leather Watch",
+  "price":765.41,
+  "discountPercentage": 12.96,
+  "rating":4.84,
+  "stock":6,
+  "brand":"Fossil",
+  "category":"Beauty",
+  "thumbnail":"https://i.dummyjson.com/data/products/101/thumbnail.jpg",
+  "images": [
+    "https://i.dummyjson.com/data/products/101/1.jpg",
+    "https://i.dummyjson.com/data/products/101/2.jpg",
+    "https://i.dummyjson.com/data/products/101/3.jpg",
+    "https://i.dummyjson.com/data/products/101/4.jpg",
+    "https://i.dummyjson.com/data/products/101/thumbnail.jpg"
+  ]
+}

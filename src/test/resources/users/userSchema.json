@@ -1,0 +1,440 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1688275332.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "id",
+    "firstName",
+    "lastName",
+    "maidenName",
+    "age",
+    "gender",
+    "email",
+    "phone",
+    "username",
+    "password",
+    "birthDate",
+    "image",
+    "bloodGroup",
+    "height",
+    "weight",
+    "eyeColor",
+    "hair",
+    "domain",
+    "ip",
+    "address",
+    "macAddress",
+    "university",
+    "bank",
+    "company",
+    "ein",
+    "ssn",
+    "userAgent"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "default": 0
+    },
+    "firstName": {
+      "$id": "#root/firstName",
+      "title": "Firstname",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "lastName": {
+      "$id": "#root/lastName",
+      "title": "Lastname",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "maidenName": {
+      "$id": "#root/maidenName",
+      "title": "Maidenname",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "age": {
+      "$id": "#root/age",
+      "title": "Age",
+      "type": "integer",
+      "default": 0
+    },
+    "gender": {
+      "$id": "#root/gender",
+      "title": "Gender",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "email": {
+      "$id": "#root/email",
+      "title": "Email",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "phone": {
+      "$id": "#root/phone",
+      "title": "Phone",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "username": {
+      "$id": "#root/username",
+      "title": "Username",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "password": {
+      "$id": "#root/password",
+      "title": "Password",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "birthDate": {
+      "$id": "#root/birthDate",
+      "title": "Birthdate",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "image": {
+      "$id": "#root/image",
+      "title": "Image",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "bloodGroup": {
+      "$id": "#root/bloodGroup",
+      "title": "Bloodgroup",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "height": {
+      "$id": "#root/height",
+      "title": "Height",
+      "type": "integer",
+      "default": 0
+    },
+    "weight": {
+      "$id": "#root/weight",
+      "title": "Weight",
+      "type": "number",
+      "default": 0.0
+    },
+    "eyeColor": {
+      "$id": "#root/eyeColor",
+      "title": "Eyecolor",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "hair": {
+      "$id": "#root/hair",
+      "title": "Hair",
+      "type": "object",
+      "required": [
+        "color",
+        "type"
+      ],
+      "properties": {
+        "color": {
+          "$id": "#root/hair/color",
+          "title": "Color",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "type": {
+          "$id": "#root/hair/type",
+          "title": "Type",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        }
+      }
+    }
+  ,
+    "domain": {
+      "$id": "#root/domain",
+      "title": "Domain",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "ip": {
+      "$id": "#root/ip",
+      "title": "Ip",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "address": {
+      "$id": "#root/address",
+      "title": "Address",
+      "type": "object",
+      "required": [
+        "address",
+        "city",
+        "coordinates",
+        "postalCode",
+        "state"
+      ],
+      "properties": {
+        "address": {
+          "$id": "#root/address/address",
+          "title": "Address",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "city": {
+          "$id": "#root/address/city",
+          "title": "City",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "coordinates": {
+          "$id": "#root/address/coordinates",
+          "title": "Coordinates",
+          "type": "object",
+          "required": [
+            "lat",
+            "lng"
+          ],
+          "properties": {
+            "lat": {
+              "$id": "#root/address/coordinates/lat",
+              "title": "Lat",
+              "type": "number",
+              "default": 0.0
+            },
+            "lng": {
+              "$id": "#root/address/coordinates/lng",
+              "title": "Lng",
+              "type": "number",
+              "default": 0.0
+            }
+          }
+        }
+      ,
+        "postalCode": {
+          "$id": "#root/address/postalCode",
+          "title": "Postalcode",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "state": {
+          "$id": "#root/address/state",
+          "title": "State",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        }
+      }
+    }
+  ,
+    "macAddress": {
+      "$id": "#root/macAddress",
+      "title": "Macaddress",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "university": {
+      "$id": "#root/university",
+      "title": "University",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "bank": {
+      "$id": "#root/bank",
+      "title": "Bank",
+      "type": "object",
+      "required": [
+        "cardExpire",
+        "cardNumber",
+        "cardType",
+        "currency",
+        "iban"
+      ],
+      "properties": {
+        "cardExpire": {
+          "$id": "#root/bank/cardExpire",
+          "title": "Cardexpire",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "cardNumber": {
+          "$id": "#root/bank/cardNumber",
+          "title": "Cardnumber",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "cardType": {
+          "$id": "#root/bank/cardType",
+          "title": "Cardtype",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "currency": {
+          "$id": "#root/bank/currency",
+          "title": "Currency",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "iban": {
+          "$id": "#root/bank/iban",
+          "title": "Iban",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        }
+      }
+    }
+  ,
+    "company": {
+      "$id": "#root/company",
+      "title": "Company",
+      "type": "object",
+      "required": [
+        "address",
+        "department",
+        "name",
+        "title"
+      ],
+      "properties": {
+        "address": {
+          "$id": "#root/company/address",
+          "title": "Address",
+          "type": "object",
+          "required": [
+            "address",
+            "city",
+            "coordinates",
+            "postalCode",
+            "state"
+          ],
+          "properties": {
+            "address": {
+              "$id": "#root/company/address/address",
+              "title": "Address",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            },
+            "city": {
+              "$id": "#root/company/address/city",
+              "title": "City",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            },
+            "coordinates": {
+              "$id": "#root/company/address/coordinates",
+              "title": "Coordinates",
+              "type": "object",
+              "required": [
+                "lat",
+                "lng"
+              ],
+              "properties": {
+                "lat": {
+                  "$id": "#root/company/address/coordinates/lat",
+                  "title": "Lat",
+                  "type": "number",
+                  "default": 0.0
+                },
+                "lng": {
+                  "$id": "#root/company/address/coordinates/lng",
+                  "title": "Lng",
+                  "type": "number",
+                  "default": 0.0
+                }
+              }
+            }
+          ,
+            "postalCode": {
+              "$id": "#root/company/address/postalCode",
+              "title": "Postalcode",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            },
+            "state": {
+              "$id": "#root/company/address/state",
+              "title": "State",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            }
+          }
+        }
+      ,
+        "department": {
+          "$id": "#root/company/department",
+          "title": "Department",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "name": {
+          "$id": "#root/company/name",
+          "title": "Name",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        },
+        "title": {
+          "$id": "#root/company/title",
+          "title": "Title",
+          "type": "string",
+          "default": "",
+          "pattern": "^.*$"
+        }
+      }
+    }
+  ,
+    "ein": {
+      "$id": "#root/ein",
+      "title": "Ein",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "ssn": {
+      "$id": "#root/ssn",
+      "title": "Ssn",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "userAgent": {
+      "$id": "#root/userAgent",
+      "title": "Useragent",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    }
+  }
+}

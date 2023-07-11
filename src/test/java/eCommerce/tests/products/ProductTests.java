@@ -112,7 +112,9 @@ public class ProductTests extends BaseSetup {
                 .when()
                 .put(ProductBaseEndPoints.SINGLE_PRODUCT)
                 .then()
-                .body("title", equalTo("iPhone Galaxy +1"));
+                .body("title", equalTo("iPhone Galaxy +1"))
+                .body("price", equalTo(765.41F))
+                .body("stock", equalTo(23));
     }
 
     @Test
